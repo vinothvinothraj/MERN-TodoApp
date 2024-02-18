@@ -24,4 +24,7 @@ The Task Manager project aims to provide a simple and intuitive interface for ma
 
 ## Installation
 - [MongoDB Community Server with MongoDB Compass](https://www.mongodb.com/try/download/community)
+- [Node js](https://nodejs.org/en)
+- To initialize a new Node.js project.
+- To create a new project with Express.
      
