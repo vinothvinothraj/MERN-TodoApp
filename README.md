@@ -6,6 +6,7 @@ The Task Manager project aims to provide a simple and intuitive interface for ma
 - [Tools and Languages](#about)
 - [Installation](#installation)
 - [Run](#run)
+- [More](#more)
 
 ## Tools and Languages
 1. **MongoDB Community Server with MongoDB Compass**
@@ -26,5 +27,38 @@ The Task Manager project aims to provide a simple and intuitive interface for ma
 - [MongoDB Community Server with MongoDB Compass](https://www.mongodb.com/try/download/community)
 - [Node js](https://nodejs.org/en)
 - To initialize a new Node.js project.
+```bash
+npm init -y
+```
 - To create a new project with Express.
-     
+```bash
+npm install express
+```
+- To create a new project with React.
+```bash
+npx create-react-app my-react-app
+```
+
+## Run the project
+- First and foremost, confirm that the MongoDB server connection is enabled.
+- To run the front end.(Navigate to the front end folder and type the following command in the command prompt.)
+```bash
+npm start
+```
+
+- To run the back end.(Navigate to the back end folder and type the following command in the command prompt.)
+```bash
+node <filename.js>  
+```
+
+- Now, you can see the frontend running on http://localhost:3000 and the backend running on http://localhost:5000.
+
+## More (Documentations)
+
+1. [Node js](https://nodejs.org/docs/latest/api/)
+2. [MongoDB](https://www.mongodb.com/docs/)
+3. [Express js](https://expressjs.com/en/starter/installing.html)
+4. [React js](https://legacy.reactjs.org/docs/getting-started.html)
+
+
+
