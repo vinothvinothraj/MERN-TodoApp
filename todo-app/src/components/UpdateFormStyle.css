@@ -1,0 +1,86 @@
+.update-form h1 {
+    text-align: center;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+}
+
+.form-elements input[type="text"] {
+    padding: 8px;
+    border: 1px solid #171717;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.form-elements input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+label {
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-elements select {
+    padding: 1px 16px; 
+    font-size: 16px; 
+    margin-left: 15px;
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #000000; 
+    outline: none; 
+    transition: border-color 0.3s; 
+    
+}
+
+.update-cat-pri {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.update-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.update-btns button {
+    margin-left: 10px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#update-clear-btn {
+    background-color: #007bff;
+}
+
+@media only screen and (max-width: 768px)  {
+    .modal .modal-content {
+      width: 70%;
+    }
+
+    .form-elements select{
+        width: 80px;
+        font-size: 8px;
+        padding: 2px 15px;
+    }
+  }

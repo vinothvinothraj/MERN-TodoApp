@@ -1,0 +1,135 @@
+.main-form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid rgb(101, 98, 98);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-form h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-titles,
+.input-more,
+.input-completed,
+.input-category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.input-completed,
+.input-category {
+    margin-bottom: 15px;
+}
+
+.input-titles input {
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-titles input:focus {
+    border-color: #171717; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.input-completed label {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.input-completed input[type="checkbox"] {
+    margin-right: 15px;
+    transform: scale(1.5);
+}
+
+.input-category label{
+    color: #ffffff;
+}
+
+.input-category select {
+    padding: 1px 16px; 
+    font-size: 16px; 
+    margin-left: 10px;
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #000000; 
+    outline: none; 
+    transition: border-color 0.3s; 
+}
+
+.input-priority  {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+label{
+    color: #fff;
+}
+
+.input-priority label {
+    color: #fff;
+}
+
+.input-priority input[type="radio"] {
+    vertical-align: middle;
+}
+
+.form-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.form-btn button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 120px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cl-btn {
+    background-color: #28a745;
+    border: 2px solid #28a745;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-form {
+        width: calc(100% - 60px);
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-right: 15px;
+        background-color: #404040;
+    }
+
+    .input-titles input {
+        width: 80%;
+    }
+}

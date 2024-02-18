@@ -1,0 +1,201 @@
+.todo-list {
+    margin: 0px auto;
+    padding: 20px;
+    width: 96%;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.todo-list h1 {
+    text-align: center;
+    color: black;
+}
+
+.todo-item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-image: url('./e2.jpg');
+    border: 2px solid rgb(101, 98, 98);
+    border-radius: 10px;
+    
+}
+
+.date-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#dlt-btn {
+    background-color: #dc1616;
+    color: #fff;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.center {
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+#srch-btn {
+    margin-right: 5px;
+    padding: 10px 40px;
+    width: 120px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    text-align: center;
+    color: black;
+    overflow-y: auto;
+}
+
+.modal2 .modal-content2 {
+    max-height: calc(100vh - 200px); 
+    overflow-y: auto; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-content2 {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px; 
+    width: 100%;
+    text-align: left;
+    color: #000000;
+}
+
+.modal-content2 h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-items2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-image: url('./e2.jpg');
+    border-radius: 10px;
+}
+
+.todo-items2 h3 {
+    color: #ffffff;
+}
+
+.close-icon2 {
+    color: #f02929;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .todo-list {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .more-items, .date-title {
+        flex-direction: column;
+    }
+
+    .date-title p {
+        margin-left: -5px;
+    }
+
+    .todo-items2 {
+        padding: 8px;
+    }
+
+    .header {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .search-container input {
+        width: 100px;
+    }
+
+    .modal2 .modal-content2 {
+        width: 60%;
+    }
+ 
+}
